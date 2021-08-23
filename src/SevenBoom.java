@@ -8,6 +8,9 @@ public class SevenBoom {
 		for (int i = 0; i < arr.length; i++) {
 
 			if (arr[i] > 10) {
+				
+				// If the number is greater than 10, then it's gonna 
+				// verify if any of its digits is equal to 7
 				int temp;
 				temp = arr[i] % 10;
 				if (temp == 7) {

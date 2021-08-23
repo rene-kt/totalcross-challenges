@@ -1,24 +1,17 @@
-import java.util.Scanner;
 
 public class PrimeNumbers {
 
-	public static void main(String[] args) {
+	public static int primeNumbers(int number) {
 
-		Scanner e = new Scanner(System.in);
+		int howManyPrimeNumbers = 0;
 
-		int howManyPrimeNumbers = 0, range = 0;
-
-		range = e.nextInt();
-
-		for (int i = 1; i <= range; i++) {
+		for (int i = 1; i <= number; i++) {
 
 			if (checkIfGivenNumberisPrime(i) == true) {
 				howManyPrimeNumbers++;
 			}
 		}
-
-		System.out.print(howManyPrimeNumbers);
-
+		return howManyPrimeNumbers;
 	}
 
 	private static boolean checkIfGivenNumberisPrime(int number) {
