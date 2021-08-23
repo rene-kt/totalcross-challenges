@@ -37,7 +37,7 @@ public class PrimeNumbers {
 			
 			// Checking whether the number is divisible for [i];
 			if(number % i == 0) {
-				// If it is divisible for [i], then add one to the variable numberOfDividers
+				// If it is divisible for [i], then add one into the variable numberOfDividers
 				numberOfDividers++;
 			}
 		}
