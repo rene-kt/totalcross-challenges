@@ -15,7 +15,7 @@ The challenge implies in count how many prime numbers are in a given range. <br>
 > Then, you'll just have to return this number in your function, it's quite straightforward<br>
 
 
-**First of all** you have to identify what is a prime number, and by its definition, it's any number who has only 2 dividers, keep that in mind and take a look at the code: 
+### **First of all** you have to identify what is a prime number, and by its definition, it's any number who has only 2 dividers, keep that in mind and take a look at the code: 
 
 ```java
 private static boolean checkIfGivenNumberisPrime(int number) {
@@ -42,7 +42,7 @@ private static boolean checkIfGivenNumberisPrime(int number) {
 	}
   ```
   
-  > This method returns a boolean value, it'll be necessary to do the verification in the next method:
+ ### This method returns a boolean value, it'll be necessary to do the verification in the next method:
 
 ```java
 
