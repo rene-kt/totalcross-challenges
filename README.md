@@ -6,7 +6,7 @@
 ### **Challenge 02** -> [Remove Repeated Characters - (Hard)](remove-repeated.md)
 ### **Challenge 03** -> [Seven Boom! - (Hard)](seven-boom.md)
 ### **Challenge 04** -> [Persistence - (Very hard)](persistence.md)
-### **Challenge 05** -> [Find the difference - (Very hard)](persistence.md)
+### **Challenge 05** -> [Find the difference - (Very hard)](difference.md)
 
 
 
